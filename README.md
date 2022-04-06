@@ -21,6 +21,7 @@ Verify Bob’s certificates: openssl verify -CAfile root.crt bob.crt
 Now once we have the certificates in the root store ,we can run secure_chat_app.c program in respective containers .
 
 Bob[server] : ./secure_chat_app -s
+
 Alice[client]: ./secure_chat_app -c bob
 
 
